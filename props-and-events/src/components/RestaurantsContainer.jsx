@@ -1,9 +1,17 @@
+import Restaurant from "./Restaurant.jsx";
+import { restaurants } from '../data/data.js';
+
+
 const RestaurantsContainer = () => {
     return(
         <div>
-            <h1>-Placeholder Title-</h1>
+            <Restaurant />
+            { restaurants.map((restaurant) => <Restaurant />)}
+            
         </div>
+        
     )
 }
 
 export default RestaurantsContainer;
+
