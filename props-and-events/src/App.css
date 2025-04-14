@@ -1,17 +1,47 @@
+html {
+  background-color: rgb(255, 232, 240);
+}
+
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: Arial, sans-serif;
+  margin: 50px 10px;
+  
+
 }
 
 li {
   list-style-type: none;
 }
 
+.restaurants{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .restaurant {
   margin: 10px;
   border: 1px solid;
   border-radius: 8px;
+  background-color: rgb(239, 241, 255);
+  color:rgb(97, 83, 110);
+
+  img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+  }
+
+  div {
+    padding: 10px;
+  }
 }
+
+
+
+
