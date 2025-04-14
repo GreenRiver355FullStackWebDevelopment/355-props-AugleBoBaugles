@@ -1,3 +1,4 @@
+// renders a Restaurant with the given props
 const Restaurant = (props) => {
     const {name, address, phone, cuisine, rating, image} = props.restaurant;
     return (
