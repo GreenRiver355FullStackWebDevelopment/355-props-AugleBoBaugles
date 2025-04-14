@@ -1,7 +1,7 @@
 const Restaurant = () => {
     return (
         <div>
-            <h1>-Placeholder Restaurant-</h1>
+            <h1>A Restaurant</h1>
         </div>
     )
 }
