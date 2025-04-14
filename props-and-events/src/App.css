@@ -35,6 +35,7 @@ li {
     object-fit: cover;
     display: block;
     margin: auto;
+    border-radius: 8px;
   }
 
   div {
