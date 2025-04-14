@@ -42,6 +42,11 @@ li {
   }
 }
 
+.restaurant:hover{
+  background-color: rgb(206, 212, 255);
+  border: dashed;
+}
+
 
 
 
